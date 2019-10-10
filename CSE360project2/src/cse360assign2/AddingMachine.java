@@ -9,14 +9,16 @@ public class AddingMachine {
 	}
 	
 	public int getTotal () {
-		return 0;
+		return total;
 	}
 	
 	public void add (int value) {
+		total = total + value; //added to total
 		
 	}
 	
 	public void subtract (int value) {
+		total = total - value; //subracted from total
 		
 	}
 	
